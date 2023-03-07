@@ -1,0 +1,29 @@
+{
+  "name": "PatelAdminV2",
+  "description": "A Telegram bot for managing your group.",
+  "repository": "https://github.com/utkarsh212646/chatgpt-Grouphelp",
+  "keywords": ["telegram", "bot", "management"],
+  "image": "heroku/python",
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "TELEGRAM_TOKEN": {
+      "description": "The token for your Telegram bot",
+      "required": true
+    },
+    "DATABASE_URL": {
+      "description": "The URL for your PostgreSQL database",
+      "required": true
+    }
+  },
+  "scripts": {
+    "start": "python app.py"
+  },
+  "stack": "heroku-20"
+}
