@@ -1,1 +1,1 @@
-worker: python alphabotz.py
+worker: python alphabotz/main.py
