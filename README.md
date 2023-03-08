@@ -45,7 +45,7 @@ This project is licensed under the MIT license. See the LICENSE file for more in
 
 If you have any questions or concerns about this bot, feel free to contact us at [email address]. We're always happy to help! Oppo
 
-What Are Some Necessary Things To Make A Group Management Bot
+#What Are Some Necessary Things To Make A Group Management Bot
 
 If you are creating a repository for group management bot, there are a few necessary things that you should include:
 
